@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="capstone.css" type="text/css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ </head>
+
+ <body> <!--- Navigation bar -->
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid" >
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				
+				<a class="navbar-brand" href="#" src="img/w3newbie.png"></a>
+			</div>
+			
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li> <a href="landingPage.html">Home</a> </li>
+					<li> <a href="#">Terms & Conditions</a> </li>
+					<li> <a href="contactus.html">Contact us</a> </li>
+					<li> <a href="loginsignupForm.html">Log out</a> </li>
+				</ul>
+				
+			</div>
+		</div>
+	</nav>
+	
+	<header>
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="navbar"  style="margin: 0 !important; padding: 0 !important; background-color: #F0F8FF">
+					<ul class="nav navbar-nav">
+						<li><a href="#">Dashboard</a></li>
+						<li><a href="viewReminder.html">View Reminders</a></li>
+						<li><a href="createReminder.html">Create Reminders</a></li>
+						<li><a href="viewPatient.html">View Patients</a></li>
+						<li><a href="report.html">Generate Reports</a></li>
+					</ul>	
+				</div>
+			</nav>
+		</div>
+	</header>
+	
+	<div class="container">
+	<div class="container-fluid padding">
+		<div class="row padding">
+			<div class="col-md-4">
+				<div class="card">
+					<h4 class="card-title" style="text-align: left; padding-bottom: 5px;">Dr. George Washington</h4>
+					<div class="card-body">
+						<img class="card-img" src="img/docprofile.jpg"><br><br>
+						<p class="card-text">Can add more info here.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-6">
+				<div class="container-fluid">
+					<table class="table table-striped" style="padding-top: 5px;">
+						<thead>
+							<tr>
+								<th>First Name</th>
+								<th>Last Name</th>
+								<th>Mobile Number</th>
+								<th>Status</th>
+							</tr>
+						</thead>
+						</tbody>
+							<tr>
+								<td>John</td>
+								<td>Doe</td>
+								<td>555-555-1234</td>
+								<td>Active</td>
+							</tr>
+							<tr>
+								<td>Peter</td>
+								<td>Carter</td>
+								<td>555-666-1234</td>
+								<td>Active</td>
+							</tr>
+							<tr>
+								<td>Sara</td>
+								<td>Fach</td>
+								<td>555-777-1234</td>
+								<td>Active</td>
+							</tr>
+							<tr>
+								<td>Hannah</td>
+								<td>Lyk</td>
+								<td>555-888-1234</td>
+								<td>In-Active</td>
+							</tr>
+						</tbody>	
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	
+	<!-- Cards are listed here -->
+	<div class="container">
+	<div class="container-fluid padding">
+		<div class="row padding">
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="img/statsdash.jpg">
+					<div class="card-body">
+						<h4 class="card-title">Age Trend</h4>
+						<p class="card-text">Add description here about the above chart.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="img/piechart.jpg">
+					<div class="card-body">
+						<h4 class="card-title">Responses</h4>
+						<p class="card-text">Add description here about the above chart.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="img/barchart.jpg">
+					<div class="card-body">
+						<h4 class="card-title">Patients</h4>
+						<p class="card-text">Add description here about the above chart.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	
+	<footer class="container-fluid text-center">
+		<div class="row">
+			<div class="col-sm-4">
+				<p>Copyright &copy; 2018 ForgetMedNot<br>
+				Powered by JHM Web Development, Ltd</p>
+			</div>
+		</div>
+	
+	</footer>
+
+</body>
+</html>
